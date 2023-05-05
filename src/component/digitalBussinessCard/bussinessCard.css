@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 62.5%;
+    font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+
+/* DigitalBussinessCard */
+.wrapper {
+    width: 100%;
+    background-color: #23252C;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.digital-bussiness-card {
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1A1B21;
+    border-radius: 16px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-pic {
+    object-fit: cover;
+    display: block;
+    width: 317px;
+    margin: auto;
+}
+
+.my-name {
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.4;
+    margin: 16px 0 0;
+}
+
+.my-carrer {
+    color: #F3BF99;
+    font-size: 16px;
+    text-align: center;
+}
+
+.my-web {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.work-contact {
+    margin: 15px 0;
+    display: flex;
+}
+
+.button {
+    align-items: center;
+    min-width: 115px;
+    padding: 9px 13px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.work-contact-icon {
+    margin-right: 5px;
+}
+
+.Linkedln-button {
+    background: #5093E2;
+    color: white;
+    margin-left: 17px;
+}
+
+.body-part {
+    margin: 12px 32px;
+    color: white;
+}
+
+.body-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.body-des {
+    font-size: 14px;
+}
+
+.footer-section {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    background-color: #161619;
+    width: 100%;
+    justify-content: center;
+}
+
+.my-profile-link {
+    font-size: 25px;
+    color: white;
+    margin: 0 18px;
+    border-radius: 5px;
+    background: #918E9B;
+    display: flex;
+    padding: 4px;
+}

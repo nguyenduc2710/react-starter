@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 62.5%;
+    font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+.navbar-section {
+    background-color: #21222A;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px 26px;
+}
+
+.navbar-img {
+    width: 52px;
+    margin-right: 12px;
+}
+
+.navbar-text-logo {
+    color: #61DAFB;
+}
+
+.navbar-title {
+    display: flex;
+    margin-left: auto;
+    color: #DEEBF8;
+}
+
+.main-section {
+    height: 1024px;
+    width: 100%;
+    background-color: #282D35;
+    color: white;
+    padding: 46px 26px 0px;
+}
+
+.main-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+}
+
+.title-list {
+    list-style-type: none;
+}
+
+.list-item::before {
+    font-size: 12px;
+    content: "•";
+    color: #61DAFB;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+/* film-list Generated below */
+.film-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.film {
+    width: 25%;
+    text-align: center;
+    margin: 20px;
+}
+
+.film img {
+    width: 100%;
+}
+
+.film-data-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* DigitalBussinessCard */
+/* .wrapper {
+    width: 100%;
+    background-color: #23252C;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.digital-bussiness-card {
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1A1B21;
+    border-radius: 16px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-pic {
+    object-fit: cover;
+    display: block;
+    width: 317px;
+    margin: auto;
+}
+
+.my-name {
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.4;
+    margin: 16px 0 0;
+}
+
+.my-carrer {
+    color: #F3BF99;
+    font-size: 16px;
+    text-align: center;
+}
+
+.my-web {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.work-contact {
+    margin: 15px 0;
+    display: flex;
+}
+
+.button {
+    align-items: center;
+    min-width: 115px;
+    padding: 9px 13px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.work-contact-icon {
+    margin-right: 5px;
+}
+
+.Linkedln-button {
+    background: #5093E2;
+    color: white;
+    margin-left: 17px;
+}
+
+.body-part {
+    margin: 12px 32px;
+    color: white;
+}
+
+.body-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.body-des {
+    font-size: 14px;
+}
+
+.footer-section {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    background-color: #161619;
+    width: 100%;
+    justify-content: center;
+}
+
+.my-profile-link {
+    font-size: 25px;
+    color: white;
+    margin: 0 18px;
+    border-radius: 5px;
+    background: #918E9B;
+    display: flex;
+    padding: 4px;
+} */
+
+
+/* Airbnb project */
+.nav-img-container {
+    height: 70px;
+    padding: 22px 30px;
+    box-shadow: 0px 6px 16px rgb(0 0 0 / 10%);
+}
+
